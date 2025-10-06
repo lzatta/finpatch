@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinPatch - Gestão Financeira Inteligente</title>
+
+    <meta name="description" content="FinPatch: seu assistente financeiro com IA para uma gestão inteligente, metas e gamificação." />
+    <meta name="author" content="Dualite Alpha" />
+
+    <meta property="og:title" content="FinPatch - Gestão Financeira Inteligente" />
+    <meta property="og:description" content="FinPatch: seu assistente financeiro com IA para uma gestão inteligente, metas e gamificação." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://npatch-mvp-setup-tq7a-dualite.netlify.app" />
+    <meta property="og:image" content="https://d33wubrfki0l68.cloudfront.net/68e087bbe3edf2002971c37d/screenshot_2025-10-04-02-35-22-0000.webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Visão geral do dashboard do aplicativo FinPatch" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FinPatch - Gestão Financeira Inteligente" />
+    <meta name="twitter:description" content="FinPatch: seu assistente financeiro com IA para uma gestão inteligente, metas e gamificação." />
+    <meta name="twitter:image" content="https://d33wubrfki0l68.cloudfront.net/68e087bbe3edf2002971c37d/screenshot_2025-10-04-02-35-22-0000.webp" />
+
+    <link rel="icon" type="image/png" sizes="16x16" href="https://i.ibb.co/HLfD5wgf/dualite-favicon.png" />
+  </head>
+  <body class="bg-background text-foreground">
+    <div id="root"></div>
+    <script>
+      // Fallback para credenciais do Supabase.
+      // Preencha com os valores do seu projeto (Settings → API) se o .env não for lido.
+      window.__SUPABASE__ = {
+        url: "YOUR_SUPABASE_URL",
+        anonKey: "YOUR_SUPABASE_ANON_KEY"
+      };
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
